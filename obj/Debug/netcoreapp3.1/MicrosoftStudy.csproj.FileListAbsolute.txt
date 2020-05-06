@@ -1,0 +1,4 @@
+E:\study\MicrosoftStudy\obj\Debug\netcoreapp3.1\MicrosoftStudy.csprojAssemblyReference.cache
+E:\study\MicrosoftStudy\obj\Debug\netcoreapp3.1\MicrosoftStudy.csproj.CoreCompileInputs.cache
+E:\study\MicrosoftStudy\obj\Debug\netcoreapp3.1\MicrosoftStudy.AssemblyInfoInputs.cache
+E:\study\MicrosoftStudy\obj\Debug\netcoreapp3.1\MicrosoftStudy.AssemblyInfo.cs

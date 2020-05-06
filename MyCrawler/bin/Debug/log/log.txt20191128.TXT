@@ -1,0 +1,568 @@
+2019-11-28 10:29:35,660 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 10:29:36,638 [1] INFO  MyCrawler.CourseSearch - ************************当前第1页数据************************
+2019-11-28 10:29:37,046 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,047 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/453546
+2019-11-28 10:29:37,048 [1] INFO  MyCrawler.CourseSearch - 课程Id： 453546
+2019-11-28 10:29:37,049 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDY9yfbxxLBeOhuFJIJoLZN9dcdoRjconibXnJMjma9fmadbvrouXBeVolTrOOs2Tvk/356
+2019-11-28 10:29:37,155 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        高级开发
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:37,156 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,156 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,157 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,158 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/340304
+2019-11-28 10:29:37,158 [1] INFO  MyCrawler.CourseSearch - 课程Id： 340304
+2019-11-28 10:29:37,159 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLAYLdeJOhU2bG1icIoYHNHyKKbdQpiazoXa3Gm2zNB4PCOWVroNgfELRo5DErl216uQc/356
+2019-11-28 10:29:37,189 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,195 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,196 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,197 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,198 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/198203
+2019-11-28 10:29:37,199 [1] INFO  MyCrawler.CourseSearch - 课程Id： 198203
+2019-11-28 10:29:37,200 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLBQmia15DaGWc6FzmibZAwiadcGNbRzIRJZicV6FVDOic3R88wticb3TibTU7IpbH16WUeACQ/356
+2019-11-28 10:29:37,231 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        高级开发
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:37,234 [1] INFO  MyCrawler.CourseSearch - 报名费：￥9077.22
+2019-11-28 10:29:37,235 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,236 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,237 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/450411
+2019-11-28 10:29:37,238 [1] INFO  MyCrawler.CourseSearch - 课程Id： 450411
+2019-11-28 10:29:37,243 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLBNbFqzEPo9NWj1IHib9xgJxJZoIWK0wjMCoeGPujQCbGjxsr4EhBIIFvxUlGgWCNicc/356
+2019-11-28 10:29:37,288 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        高级开发
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:37,291 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,292 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,293 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,293 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/59064
+2019-11-28 10:29:37,294 [1] INFO  MyCrawler.CourseSearch - 课程Id： 59064
+2019-11-28 10:29:37,295 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDySkKUeBXH9oSD4NXC0FvfLK9e5ewxckNCwva7iciaKJIzuShjoZVHnCS7hhPiah6iats/356
+2019-11-28 10:29:37,338 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,341 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,342 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,343 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,345 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/453197
+2019-11-28 10:29:37,346 [1] INFO  MyCrawler.CourseSearch - 课程Id： 453197
+2019-11-28 10:29:37,354 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCSBwlesZjibfT46sO45H5z2jQ9UYHspTJfodD9FKzcpV3uK14tgRBXMjpMyT7IGQlA/356
+2019-11-28 10:29:37,378 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:37,379 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,382 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,383 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,384 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/28986
+2019-11-28 10:29:37,384 [1] INFO  MyCrawler.CourseSearch - 课程Id： 28986
+2019-11-28 10:29:37,386 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDv62AyH9Caia5SLAfVMiccted79jG5JNZZdojPsCmvBiaPHYgFfDhz4ibYM5zBdY6hKbA/356
+2019-11-28 10:29:37,412 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        高级开发
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:37,423 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,425 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,427 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,430 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/301616
+2019-11-28 10:29:37,431 [1] INFO  MyCrawler.CourseSearch - 课程Id： 301616
+2019-11-28 10:29:37,435 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDeSA2cXjDWG0wlONJSwGmvp3EiawYXVM8bY2GmlJfsr6aIOezOxs3JiaLwmD1icTRicAg/356
+2019-11-28 10:29:37,469 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,472 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,473 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,475 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,476 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/163071
+2019-11-28 10:29:37,477 [1] INFO  MyCrawler.CourseSearch - 课程Id： 163071
+2019-11-28 10:29:37,481 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLADibvpZPwty5qttAoyibIAO1IwZ045QLW2FwstCicTHc7uowTghfXYu2LiaUl3NdtCpqM/356
+2019-11-28 10:29:37,545 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,548 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,551 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,560 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,561 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/138056
+2019-11-28 10:29:37,574 [1] INFO  MyCrawler.CourseSearch - 课程Id： 138056
+2019-11-28 10:29:37,576 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCoD9xaV769icf9bONgUicwibdia187tic9A85EMMSKdqxQ8DYSLjb5SUNWcaAatRSmjSMA/356
+2019-11-28 10:29:37,677 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,679 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,684 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,688 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,692 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/420992
+2019-11-28 10:29:37,693 [1] INFO  MyCrawler.CourseSearch - 课程Id： 420992
+2019-11-28 10:29:37,695 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCgsEy7okIRqpw9ASrIzpO1YvLFOAjzS5wInpYvicNZN3PGb3J3ZDXjAX2wf1Khd8rE/356
+2019-11-28 10:29:37,753 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,756 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,757 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,758 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,759 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/7034
+2019-11-28 10:29:37,760 [1] INFO  MyCrawler.CourseSearch - 课程Id： 7034
+2019-11-28 10:29:37,763 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDD1YOeDQbticwl8fzArMsX5MSkfZgWRKXKkFfEvFslMrrbBMveoalnOdp6Ev2Cmjyg/356
+2019-11-28 10:29:37,834 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        高级开发
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:37,836 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,837 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,838 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,839 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/422244
+2019-11-28 10:29:37,839 [1] INFO  MyCrawler.CourseSearch - 课程Id： 422244
+2019-11-28 10:29:37,841 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCtJC3Oa6VNCicfksV5f6dtLVpz9dqABWpnsI92emOKiaZIR2wO1PjZZb6ewIvMG0iaSI/356
+2019-11-28 10:29:37,926 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:37,928 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:37,935 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:37,941 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:37,948 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/459393
+2019-11-28 10:29:37,953 [1] INFO  MyCrawler.CourseSearch - 课程Id： 459393
+2019-11-28 10:29:37,954 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLBARRNkEgaTicgfVCYKs5GaMvyetOUMfOicUIkGnCiacicjyvAialFHdD84kX7GXiaabTZOc/356
+2019-11-28 10:29:38,040 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:38,041 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:38,043 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:38,049 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/59314
+2019-11-28 10:29:38,063 [1] INFO  MyCrawler.CourseSearch - 课程Id： 59314
+2019-11-28 10:29:38,065 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLBK0xhyw7V5FqtmA4B0ticUausnObmMuWNw3xMBbkGX87ypo1ZDhg8WD1FRt26ozfsI/356
+2019-11-28 10:29:38,101 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:38,110 [1] INFO  MyCrawler.CourseSearch - 报名费：￥0077.22
+2019-11-28 10:29:38,113 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:38,117 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:38,118 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/462921
+2019-11-28 10:29:38,120 [1] INFO  MyCrawler.CourseSearch - 课程Id： 462921
+2019-11-28 10:29:38,121 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDLSBln8JPw8RREmI65Q2dicR2ryuiaIubpC60FaYEGicJFD0qAe8ztn0yuw0yzMMiayf0/356
+2019-11-28 10:29:38,185 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        零基础
+                    
+                
+            
+2019-11-28 10:29:38,188 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:38,190 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:38,193 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:38,198 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/248962
+2019-11-28 10:29:38,200 [1] INFO  MyCrawler.CourseSearch - 课程Id： 248962
+2019-11-28 10:29:38,203 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCnC4gyMiaNW5KUibTuYlkeAhRgBgnvbJkRjs1JqQgSeyeL7D5uHcpz2jbCib628S6YfM/356
+2019-11-28 10:29:38,242 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        0-3年工作经验
+                    
+                
+            
+2019-11-28 10:29:38,244 [1] INFO  MyCrawler.CourseSearch - 报名费：￥9077.22
+2019-11-28 10:29:38,246 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:38,255 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:38,261 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/250008
+2019-11-28 10:29:38,265 [1] INFO  MyCrawler.CourseSearch - 课程Id： 250008
+2019-11-28 10:29:38,266 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLDkIwkxiaYtM32ok9UY7VnbiaibxSv3aeuKIOvvUOAiaGtXbRicGaXqlhEjYbpOgdvH8ptY/356
+2019-11-28 10:29:38,293 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        0-3年工作经验
+                    
+                
+            
+2019-11-28 10:29:38,302 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:38,306 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:38,339 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:38,343 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/456617
+2019-11-28 10:29:38,346 [1] INFO  MyCrawler.CourseSearch - 课程Id： 456617
+2019-11-28 10:29:38,350 [1] INFO  MyCrawler.CourseSearch - 图片路径：//10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCKbWJeMdpshDbEjib4t1F36u9zwKKDZBZmiakmJibRLeoMhJI6ic8X1ubJEjVUp3rmXLQ/356
+2019-11-28 10:29:38,430 [1] INFO  MyCrawler.CourseSearch - 标签：
+                
+                    
+                        ASP.NET
+                    
+                
+                    
+                        项目实战
+                    
+                
+                    
+                        .Net高级工程师
+                    
+                
+                    
+                        3年以上工作经验
+                    
+                
+            
+2019-11-28 10:29:38,432 [1] INFO  MyCrawler.CourseSearch - 报名费：免费
+2019-11-28 10:29:38,433 [1] INFO  MyCrawler.CourseSearch - 
+
+2019-11-28 10:29:38,435 [1] INFO  MyCrawler.CourseSearch - ******************************************************************
+2019-11-28 10:29:38,436 [1] INFO  MyCrawler.CourseSearch - 课程路径： //ke.qq.com/course/267477
+2019-11-28 10:29:38,437 [1] INFO  MyCrawler.CourseSearch - 课程Id： 267477
+2019-11-28 10:29:38,438 [1] INFO  MyCrawler.CourseSearch - 图片路径：https://10.url.cn/qqcourse_logo_ng/ajNVdqHZLLCXx9LyXZz5NUibUw76jwsVmjvOjFovHXcqf6kj4rPe4qMBBBFy0Xm2RB9iaQDK2KxCI/356
+2019-11-28 10:29:52,930 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常
+System.UriFormatException: 无效的 URI: 未能分析证书颁发机构/主机。
+   在 System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind)
+   在 System.Uri..ctor(String uriString)
+   在 System.Net.WebRequest.Create(String requestUriString)
+   在 MyCrawler.Utility.ImageHelper.ImgSave(String url) 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\Utility\ImageHelper.cs:行号 20
+   在 MyCrawler.CourseSearch.GetCourse(HtmlNode node) 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 168
+   在 MyCrawler.CourseSearch.GetPageIndexDate(Int32 pageIndex) 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 132
+   在 MyCrawler.CourseSearch.GetPageCourse() 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 108
+   在 MyCrawler.CourseSearch.Crawler() 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 82
+2019-11-28 10:34:45,144 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 10:44:45,356 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 10:48:51,806 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 10:57:37,966 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:00:31,074 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:01:40,202 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:05:13,217 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:05:14,010 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCrawler.CourseSearch.CreawlerNew() 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 61
+2019-11-28 11:05:24,910 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:06:06,682 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:07:57,899 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:08:01,290 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCrawler.Utility.ImageHelper.ImgSave(String url) 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\Utility\ImageHelper.cs:行号 24
+   在 MyCrawler.CourseSearch.CreawlerNew() 位置 D:\zhaoxiEDU\PublicClass\20191121爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 63
+2019-11-28 11:08:11,002 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:09:33,777 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:33:59,961 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 11:45:23,629 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 21:48:45,730 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:13:33,420 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:14:27,939 [1] WARN  MyCrawler.DataService.DBInit - 初始化数据库InitTencent_SubjectTable删除的时候，原表不存在
+2019-11-28 22:17:04,194 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:18:38,899 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:18:57,153 [1] WARN  MyCrawler.DataService.DBInit - 初始化数据库InitCategoryTable删除的时候，原表不存在
+2019-11-28 22:19:30,504 [1] WARN  MyCrawler.DataService.DBInit - 初始化数据库InitTencent_SubjectTable删除的时候，原表不存在
+2019-11-28 22:21:43,511 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:22:06,859 [1] WARN  MyCrawler.DataService.DBInit - 初始化数据库InitTencent_SubjectTable删除的时候，原表不存在
+2019-11-28 22:26:24,782 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:26:44,190 [1] WARN  MyCrawler.DataService.DBInit - 初始化数据库InitCategoryTable删除的时候，原表不存在
+2019-11-28 22:26:58,676 [1] WARN  MyCrawler.DataService.DBInit - 初始化数据库InitTencent_SubjectTable删除的时候，原表不存在
+2019-11-28 22:42:15,044 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:43:43,431 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:44:49,828 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:48:12,340 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:49:09,273 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:52:33,141 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:52:47,820 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:53:16,755 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:54:51,524 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:58:24,959 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:58:26,086 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCrawler.CourseSearch.ShowLiData(HtmlNode node) 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 157
+   在 MyCrawler.CourseSearch.ShowPageIndeData(String url) 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 134
+   在 MyCrawler.CourseSearch.ShowPageData() 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 121
+   在 MyCrawler.CourseSearch.CreawlerNew() 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 71
+2019-11-28 22:59:06,988 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:59:08,227 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCrawler.CourseSearch.ShowLiData(HtmlNode node) 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 157
+   在 MyCrawler.CourseSearch.ShowPageIndeData(String url) 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 134
+   在 MyCrawler.CourseSearch.ShowPageData() 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 121
+   在 MyCrawler.CourseSearch.CreawlerNew() 位置 D:\zhaoxiEDU\PublicClass\20191122爬虫\MyCrawler\MyCrawler\CourseSearch.cs:行号 71
+2019-11-28 22:59:36,021 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 22:59:52,127 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:01:20,854 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:04:22,665 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:07:01,325 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:07:51,154 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:08:33,292 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:10:07,225 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:10:56,631 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:11:46,355 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 MyCrawler.CourseSearch.ShowLiData(HtmlNode node)
+   在 MyCrawler.CourseSearch.ShowPageIndeData(String url)
+   在 MyCrawler.CourseSearch.ShowPageData()
+   在 MyCrawler.CourseSearch.CreawlerNew()
+2019-11-28 23:11:52,822 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:12:20,655 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:17:51,194 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:19:56,825 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:33:08,297 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2019-11-28 23:35:39,189 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
