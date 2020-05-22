@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/newlist/newlist",
+    "pages/keyTest/keyTest",
+    "pages/test2/test2",
+    "pages/test/test",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爸爸的小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
