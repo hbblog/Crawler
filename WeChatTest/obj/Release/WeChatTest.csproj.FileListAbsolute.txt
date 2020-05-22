@@ -81,3 +81,5 @@ E:\study\MicrosoftStudy\WeChatTest\obj\Release\WeChatTest.csproj.CoreCompileInpu
 E:\study\MicrosoftStudy\WeChatTest\obj\Release\WeChatTest.csproj.CopyComplete
 E:\study\MicrosoftStudy\WeChatTest\obj\Release\WeChatTest.dll
 E:\study\MicrosoftStudy\WeChatTest\obj\Release\WeChatTest.pdb
+E:\study\MicrosoftStudy\WeChatTest\bin\Service.dll
+E:\study\MicrosoftStudy\WeChatTest\bin\Service.pdb

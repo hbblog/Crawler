@@ -32,10 +32,10 @@ namespace MyCrawler
         public CourseSearch(TencentCategoryEntity _category)
         {
             category = _category;
-        } 
+        }
         //请大家思考一下：如果需要爬虫获取腾讯课堂所有的类目信息，如何获取呢?
         //   如果数据量在非常大（百万级数据）的情况下，如何提高爬虫的效率！
-         
+
         // 现在是11：29   大家可以提提问，老师在线解答一下你们的问题！
 
         public void Crawler()
@@ -52,6 +52,8 @@ namespace MyCrawler
                     //ImageHelper.DeleteDir(Constant.ImagePath);
                     GetPageCourseData();
                     #endregion
+                    //不分页获取
+                    //GetPageIndeData(category.Url);
                 }
             }
             catch (Exception ex)
@@ -78,7 +80,7 @@ namespace MyCrawler
             document.LoadHtml(strHtml);
 
             //Xpath
-            string pagePath = "/html/body/section[1]/div/div[@class='sort-page']/a[@class='page-btn']";
+            string pagePath = "/html/body/div[1]/div/div[2]/ul[@class='pagination']/li/a/span[@class='page-numbers']";
             HtmlNodeCollection pageNodes = document.DocumentNode.SelectNodes(pagePath);
 
             int pageCount = 1;
@@ -90,10 +92,11 @@ namespace MyCrawler
 
             for (int pageIndex = 1; pageIndex <= pageCount; pageIndex++)
             {
-                Console.WriteLine($"******************************当前是第{pageIndex}页数据************************************");
-                string pageIndexUrl = $"{category.Url}&page={pageIndex}";
+                Console.WriteLine($"开始抓取第{pageIndex}页数据");
+                string pageIndexUrl = $"{category.Url}page/{pageIndex}";
                 List<CourseEntity> courseEntities = GetPageIndeData(pageIndexUrl);
                 courseList.AddRange(courseEntities);
+                Console.WriteLine($"抓取第{pageIndex}页数据完毕");
             }
             courseRepository.SaveList(courseList);
 
@@ -108,7 +111,7 @@ namespace MyCrawler
             string strHtml = HttpHelper.DownloadUrl(url);
             HtmlDocument document = new HtmlDocument();
             document.LoadHtml(strHtml);
-            string liPath = "/html/body/section[1]/div/div[@class='market-bd market-bd-6 course-list course-card-list-multi-wrap js-course-list']/ul/li";
+            string liPath = "/html/body/div[1]/div/div[2]/div";
             HtmlNodeCollection liNodes = document.DocumentNode.SelectNodes(liPath);
 
             List<CourseEntity> courseEntities = new List<CourseEntity>();
@@ -116,7 +119,7 @@ namespace MyCrawler
             {
                 CourseEntity courseEntity = GetLiData(node);
                 courseEntities.Add(courseEntity);
-            } 
+            }
             return courseEntities;
         }
 
@@ -130,35 +133,42 @@ namespace MyCrawler
             //从这里开始 
             HtmlDocument document = new HtmlDocument();
             document.LoadHtml(node.OuterHtml);
-            string aPath = "//*/a[1]";
-            HtmlNode classANode = document.DocumentNode.SelectSingleNode(aPath);
-            string aHref = classANode.Attributes["href"].Value;
-            courseEntity.Url = aHref;
 
-            Console.WriteLine($"课程Url:{aHref}");
+            string xPathHeadImgUrl = "//*/a[1]/img";
+            HtmlNode tempNode = document.DocumentNode.SelectSingleNode(xPathHeadImgUrl);
+            courseEntity.HeadImgUrlWeb = tempNode.Attributes["src"].Value;
+            //Console.WriteLine($"HeadImgUrlWeb='{courseEntity.HeadImgUrlWeb}'");
+            //图片保存到本地
+            courseEntity.HeadImgUrlDisk = ImageHelper.ImgSave("http://" + courseEntity.HeadImgUrlWeb.TrimStart('/').TrimStart('/').Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]);
+            //Console.WriteLine($"HeadImgUrlDisk='{courseEntity.HeadImgUrlDisk}'");
 
-            string Id = classANode.Attributes["data-id"].Value;
+            string xPathAuthor = "//*/a[2]/h2";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathAuthor);
+            courseEntity.Author = tempNode.InnerText.Trim(new char[] { '\r','\n'});
+            //Console.WriteLine($"Author='{courseEntity.Author}'");
 
-            Console.WriteLine($"课程Id:{Id}");
+            string xPathGender = "//*/div[1]/div";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathGender);
+            courseEntity.Gender = tempNode.Attributes["class"].Value.Contains("women") ? 0 : 1;
+            courseEntity.Age = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            //Console.WriteLine($"Gender='{courseEntity.Gender}'");
+            //Console.WriteLine($"Age='{courseEntity.Age}'");
 
-            courseEntity.CourseId = long.Parse(Id);
+            string xPathContent = "//*/a[1]/div/span";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathContent);
+            courseEntity.Content = tempNode.InnerText.Trim(new char[] { '\r', '\n' }); ;
+            //Console.WriteLine($"Content='{courseEntity.Content}'");
 
-            string imgPath = "//*/a[1]/img";
-            HtmlNode imgNode = document.DocumentNode.SelectSingleNode(imgPath);
-            string imgUrl = imgNode.Attributes["src"].Value;
-            courseEntity.ImageUrl = imgUrl;
+            string xPathUpCount = "//*/div[2]/span[1]/i";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathUpCount);
+            courseEntity.UpCount = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            //Console.WriteLine($"UpCount='{courseEntity.UpCount}'");
 
-            Console.WriteLine($"ImageUrl:{imgUrl}");
-             
-            string namePaths = "//*/h4/a[1]";
-            HtmlNode nameNode = document.DocumentNode.SelectSingleNode(namePaths);
-            string name = nameNode.InnerText;
+            string xPathCommentCount = "//*/div[2]/span[2]/a/i";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathCommentCount);
+            courseEntity.CommentCount = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            //Console.WriteLine($"CommentCount='{courseEntity.CommentCount}'");
 
-            courseEntity.Title = name;
-
-            Console.WriteLine($"课程名称:{name}");
-
-            courseEntity.Price = new Random().Next(100, 10000);  //关于腾讯课堂上的课程价格抓取 这是一个进阶内容  通过普通方式搞不了（他有一个自己的算法） 
             return courseEntity;
 
         }

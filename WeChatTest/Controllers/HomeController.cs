@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
 using WeChatTest.Models;
 
@@ -40,6 +38,7 @@ namespace WeChatTest.Controllers
       createTime: "2020-04-29T10:45:15",
     }]
              */
+
             List<ResultJson> list = new List<ResultJson>();
             list.Add(new ResultJson()
             {

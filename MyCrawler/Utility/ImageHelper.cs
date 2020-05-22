@@ -10,12 +10,13 @@ namespace MyCrawler.Utility
 {
     public class ImageHelper
     { 
-        public static void ImgSave(string url)
+        public static string ImgSave(string url)
         { 
             if (string.IsNullOrWhiteSpace(url))
             {
                 throw new Exception("图片下载路径不能为空");
             }
+            string path = "";
 
             HttpWebRequest imgRequest = WebRequest.Create(url) as HttpWebRequest;
             HttpWebResponse res;
@@ -32,7 +33,7 @@ namespace MyCrawler.Utility
                 System.Drawing.Image downImage = System.Drawing.Image.FromStream(res.GetResponseStream());
 
                 string deerory = Constant.ImagePath;
-                string fileName = $"{DateTime.Now.ToString("HHmmssffff")}.png";
+                string fileName = $"{DateTime.Now.ToString("HHmmssffff")}.jpg";
 
                 if (!System.IO.Directory.Exists(deerory))
                 {
@@ -40,7 +41,9 @@ namespace MyCrawler.Utility
                 }
                 downImage.Save(deerory + fileName);
                 downImage.Dispose();
+                path = deerory + fileName;
             }
+            return path;
         }
 
 

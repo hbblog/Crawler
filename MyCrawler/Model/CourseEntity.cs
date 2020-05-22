@@ -8,13 +8,37 @@ namespace MyCrawler.Model
 {
     public class CourseEntity : BaseModel
     {
-        public long CourseId { get; set; }
-        public int CategoryId { get; set; }  //类别Id
-        public string Title { get; set; }
-        public decimal Price { get; set; }
-        public string Url { get; set; }
-        public string ImageUrl { get; set; }
+        /// <summary>
+        /// 作者姓名
+        /// </summary>
+        public string Author { get; set; }
+        /// <summary>
+        /// 头像图片网络地址
+        /// </summary>
+        public string HeadImgUrlWeb { get; set; }
+        /// <summary>
+        /// 头像图片本地地址
+        /// </summary>
+        public string HeadImgUrlDisk { get; set; }
+        /// <summary>
+        /// 作者性别
+        /// </summary>
+        public int Gender { get; set; }
+        /// <summary>
+        /// 作者年龄
+        /// </summary>
+        public int Age { get; set; }
+        /// <summary>
+        /// 内容
+        /// </summary>
+        public string Content { get; set; }
+        /// <summary>
+        /// 点赞数
+        /// </summary>
+        public int UpCount { get; set; }
+        /// <summary>
+        /// 评论数
+        /// </summary>
+        public int CommentCount { get; set; }
     }
-
-    
 }

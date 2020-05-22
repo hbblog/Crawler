@@ -21,14 +21,14 @@ namespace MyCrawler
             {
                 TencentCategoryEntity category = new TencentCategoryEntity()
                 {
-                    Url = "https://ke.qq.com/course/list/.Net?tuin=a3ff93bc"
+                    Url = "https://www.qiushibaike.com/text/"
                 };
 
                 #region 开始抓取数据
 
-               //CrawlerCenter.CrawlerCourse();
+                //CrawlerCenter.CrawlerCourse();
 
-              CrawlerCenter.Handler();
+                //CrawlerCenter.Handler();
                 #endregion 
                 #region 抓取腾讯课堂类别数据 
                 //ISearch search = new CategorySearch();
@@ -37,8 +37,8 @@ namespace MyCrawler
 
 
                 #region 抓取课程
-                //ISearch search = new CourseSearch(category);
-                //search.Crawler();
+                ISearch search = new CourseSearch(category);
+                search.Crawler();
                 #endregion
 
                 Console.ReadLine();
