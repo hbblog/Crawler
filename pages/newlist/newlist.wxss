@@ -1,0 +1,102 @@
+/* pages/newlist/newlist.wxss */
+.head {
+  background-color: red;
+  height: 50px;
+  overflow: hidden;
+}
+
+.head input {
+  width: 80%;
+  background-color: #fff;
+  height: 30px;
+  margin: 10px auto;
+  border-radius: 3px;
+  font-size: 12px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.type-pad {
+  height: 40px;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 40px;
+}
+
+.type-pad text {
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.type-pad text.select {
+  color: red;
+}
+
+.type-pad navigator {
+  margin-left: 15px;
+  font-size: 14px;
+  width:40px;  
+}
+
+.type-pad navigator.select {
+  color: red;
+}
+
+.body {
+  background-color: #f0f0f0;
+}
+.body .item:first-child{
+  padding-top: 0;
+}
+.body .item:last-child{
+  padding-bottom: 0;
+}
+.body .item{
+  margin-top: 10px;
+  padding-bottom: 5px;
+  padding-top: 10px;
+  background-color: white;
+}
+
+.body  .item .user-info {
+  height: 30px;
+  padding-left: 10px;
+}
+
+.body .item .user-info text {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.body .item .user-info text.focus {
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+}
+
+.body .item .user-info image {
+  height: 36px;
+  width: 36px;
+  border-radius: 36px;
+  vertical-align: middle;
+}
+
+.body .item .user-info text.no-focus {
+  color: red;
+}
+
+.body .item .title {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.body .item .content {
+  padding: 0 10px;
+}
+
+.body .item .content video {
+  width: 100%;
+  height: 180px;
+}
+
+.body .item .content image{
+  width: 100%;
+}

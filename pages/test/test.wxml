@@ -1,0 +1,57 @@
+<view>hello </view>
+<view>world</view>
+
+<text selectable>你好</text>
+<text>世界</text>
+<text>世界&nbsp;你好</text>
+<text decode>世界&nbsp;你好</text>
+
+<button>点击我</button>
+<button type="primary">点击我</button>
+<button type="default">点击我</button>
+<button type="warn">点击我</button>
+<form bindsubmit="" bindreset="">
+	<button form-type="submit">submit</button>
+	<button form-type="reset">reset</button>
+</form>
+	<button open-type="getUserInfo">getUserInfo</button>
+	<button open-type="getPhoneNumber">getPhoneNumber</button>
+	<button open-type="contact">contact</button>
+
+<checkbox-group>
+  <checkbox value="1">帅哥</checkbox>
+  <checkbox value="2">美女</checkbox>
+</checkbox-group>
+
+<radio-group>
+  <radio value="1">帅哥</radio>
+  <radio value="2">美女</radio>
+</radio-group>
+
+<block>
+<view>logo</view>
+<text style="margin-right:6px;">物品</text>
+<text style="margin-right:6px;">购物车</text>
+<text style="margin-right:6px;">我的</text>
+</block>
+<block>
+<view>logo</view>
+<text style="margin-right:6px;">物品</text>
+<text style="margin-right:6px;">购物车</text>
+<text style="margin-right:6px;">我的</text>
+</block>
+<block style="display:none;">
+<view>logo</view>
+<text style="margin-right:6px;">物品</text>
+<text style="margin-right:6px;">购物车</text>
+<text style="margin-right:6px;">我的</text>
+</block>
+
+<input type="text" value="234as"></input>
+<input type="password"></input>
+<input password="password"></input>
+<input type="number"></input>
+<input placeholder="hello" placeholder-style="color:red;" placeholder-class="placeholder"></input>
+<input disabled="disabled"></input>
+<input maxlength="9"></input>
+

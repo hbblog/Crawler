@@ -1,0 +1,4 @@
+/* pages/test/test.wxss */
+.placeholder{
+  border:1px silver solid;
+}

@@ -1,0 +1,6 @@
+<view>
+	<view wx:for="{{users}}" wx:key="name">
+		<checkbox><text>{{index}}--{{item.name}}</text></checkbox>
+	</view>
+  <button bindtap="addUltraman">添加</button>
+</view>

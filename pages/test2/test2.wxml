@@ -1,0 +1,18 @@
+<input type="text" bindinput="changeme"></input>
+<button bindtap="clickme" data-value1="1" data-val2="2">点我</button>
+<view>{{msg}}</view>
+<text>{{msg2}}</text>
+<rich-text nodes="{{msg2}}"></rich-text>
+
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" >获取用户信息</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">获取手机号</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getphone</button>
+
+<button open-type="contact" bindcontact="getContact">联系客服</button>
+
+<button bindtap="shouAlert">弹窗</button>
+
+<navigator url="/pages/test/test">导航</navigator>
+<button bindtap="navi">导航</button>
+
+<button bindtap="getData">跳转{{result}}</button>
