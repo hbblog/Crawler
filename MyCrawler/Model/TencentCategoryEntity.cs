@@ -14,5 +14,9 @@ namespace MyCrawler.Model
         public string Url { get; set; }
         public int CategoryLevel { get; set; }
         public int State { get; set; } = 1;
+
+        public string Type { get; set; }
+        public string PageXPath { get; set; }
+        public string NodeXPath { get; set; }
     }
 }

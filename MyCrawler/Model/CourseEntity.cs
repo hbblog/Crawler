@@ -40,5 +40,17 @@ namespace MyCrawler.Model
         /// 评论数
         /// </summary>
         public int CommentCount { get; set; }
+        /// <summary>
+        /// 0笑话 1图片 2视频
+        /// </summary>
+        public int Type { get; set; }
+        /// <summary>
+        /// 配文图片
+        /// </summary>
+        public string ContentImg { get; set; }
+        /// <summary>
+        /// 配文视频
+        /// </summary>
+        public string ContentVideo { get; set; }
     }
 }

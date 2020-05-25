@@ -3,3 +3,9 @@ E:\study\MicrosoftStudy\Service\bin\Release\Service.pdb
 E:\study\MicrosoftStudy\Service\obj\Release\Service.csproj.CoreCompileInputs.cache
 E:\study\MicrosoftStudy\Service\obj\Release\Service.dll
 E:\study\MicrosoftStudy\Service\obj\Release\Service.pdb
+E:\study\Crawler\Service\bin\Release\Service.dll
+E:\study\Crawler\Service\bin\Release\Service.pdb
+E:\study\Crawler\Service\obj\Release\Service.csprojAssemblyReference.cache
+E:\study\Crawler\Service\obj\Release\Service.csproj.CoreCompileInputs.cache
+E:\study\Crawler\Service\obj\Release\Service.dll
+E:\study\Crawler\Service\obj\Release\Service.pdb

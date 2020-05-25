@@ -1,10 +1,5 @@
 ﻿using MyCrawler.Model;
-using Newtonsoft.Json;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace MyCrawler
 {
@@ -19,27 +14,30 @@ namespace MyCrawler
 
             try
             {
-                TencentCategoryEntity category = new TencentCategoryEntity()
+                #region 抓取笑话
+                //TencentCategoryEntity categoryText = new TencentCategoryEntity()
+                //{
+                //    Url = "https://www.qiushibaike.com/text/",
+                //    Type = "text",
+                //    PageXPath = "/html/body/div[1]/div/div[2]/ul[@class='pagination']/li/a/span[@class='page-numbers']",
+                //    NodeXPath = "/html/body/div[1]/div/div[2]/div"
+                //};
+                #endregion
+                #region 抓取趣图
+                TencentCategoryEntity categoryImg = new TencentCategoryEntity()
                 {
-                    Url = "https://www.qiushibaike.com/text/"
+                    ////*[@id="qiushi_tag_123079374"]/div[2]/a
+                    Url = "https://www.qiushibaike.com/imgrank/",
+                    Type = "imgrank",
+                    PageXPath = "/html/body/div[1]/div/div[2]/ul/li/a/span[@class='page-numbers']",
+                    NodeXPath = "/html/body/div[1]/div/div[2]/div"
                 };
-
-                #region 开始抓取数据
-
-                //CrawlerCenter.CrawlerCourse();
-
-                //CrawlerCenter.Handler();
-                #endregion 
-                #region 抓取腾讯课堂类别数据 
-                //ISearch search = new CategorySearch();
-                //search.Crawler();
                 #endregion
 
 
-                #region 抓取课程
-                ISearch search = new CourseSearch(category);
-                search.Crawler();
-                #endregion
+
+                ISearch searchImg = new CourseSearch(categoryImg);
+                searchImg.Crawler();
 
                 Console.ReadLine();
             }
