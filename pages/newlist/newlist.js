@@ -75,7 +75,7 @@ Page({
   getNewsList() {
     var that = this;
     wx.request({
-      url: 'http://10.185.1.51:8084/',
+      url: 'http://192.168.1.102:8081//',
       success(res) {
         that.setData({
           newsList: res.data,
