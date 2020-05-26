@@ -34,9 +34,9 @@ namespace MyCrawler.DataService
                 sw.WriteLine(msg);
                 sw.WriteLine(JsonConvert.SerializeObject(JsonConvert.SerializeObject(category)));
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                logger.Error("SaveWarn出现异常", e);
+                logger.Error("SaveWarn出现异常" + ex.Message);
             }
             finally
             {

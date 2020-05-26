@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-
-namespace WeChatTest.Models
+﻿namespace WeChatTest.Models
 {
     public class VM_QiuBaiHappy
     {
@@ -40,5 +35,21 @@ namespace WeChatTest.Models
         /// 评论数
         /// </summary>
         public int CommentCount { get; set; }
+        /// <summary>
+        /// 分页id
+        /// </summary>
+        public string rownumber { get; set; }
+        /// <summary>
+        /// 类型：0笑话  1趣图   2视频
+        /// </summary>
+        public int Type { get; set; }
+        /// <summary>
+        /// 配文图片
+        /// </summary>
+        public string ContentImg { get; set; }
+        /// <summary>
+        /// 配文视频
+        /// </summary>
+        public string ContentVideo { get; set; }
     }
 }

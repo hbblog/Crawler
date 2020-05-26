@@ -65,9 +65,9 @@ namespace MyCrawler.DataService
                 }
                 sw.WriteLine(JsonConvert.SerializeObject(commodityList));
             }
-            catch (Exception e)
+            catch (Exception ex)
             {
-                logger.Error("CommodityRepository.SaveList出现异常", e);
+                logger.Error("CommodityRepository.SaveList出现异常" + ex.Message);
             }
             finally
             {

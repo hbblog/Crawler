@@ -108,16 +108,26 @@ namespace MyCrawler
             switch (category.Type)
             {
                 case "text":
+                    var textEntity = SqlHelper.QueryList<CourseEntity>("select top 1 * from QiuBaiHappy where type=0 order by id desc").FirstOrDefault();
                     foreach (var node in liNodes)
                     {
                         CourseEntity courseEntity = GetTextData(node);
+                        if (textEntity.Content == courseEntity.Content)
+                        {
+                            break;
+                        }
                         courseEntities.Add(courseEntity);
                     }
                     break;
                 case "imgrank":
+                    var imgEntity = SqlHelper.QueryList<CourseEntity>("select top 1 * from QiuBaiHappy where type=1 order by id desc").FirstOrDefault();
                     foreach (var node in liNodes)
                     {
                         CourseEntity courseEntity = GetImgData(node);
+                        if (imgEntity.Content == courseEntity.Content)
+                        {
+                            break;
+                        }
                         courseEntities.Add(courseEntity);
                     }
                     break;
@@ -142,32 +152,29 @@ namespace MyCrawler
 
             string xPathHeadImgUrl = "//*/a[1]/img";
             HtmlNode tempNode = document.DocumentNode.SelectSingleNode(xPathHeadImgUrl);
-            courseEntity.HeadImgUrlWeb = tempNode.Attributes["src"].Value;
+            courseEntity.HeadImgUrlWeb = tempNode != null ? tempNode.Attributes["src"].Value : "";
             //图片保存到本地
-            string path = ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]);
-            courseEntity.HeadImgUrlDisk = path.Replace(@"E:\study\WeChatApplet\pages", "..");
+            string path = tempNode != null ? ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
+            courseEntity.HeadImgUrlDisk = tempNode != null ? path.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
 
-            //string xPathAuthor = "//*/a[2]/h2";
-            //tempNode = document.DocumentNode.SelectSingleNode(xPathAuthor);
-            //courseEntity.Author = tempNode.InnerText.Trim(new char[] { '\r', '\n' });
-            courseEntity.Author = tempNode.Attributes["alt"].Value;
+            courseEntity.Author = tempNode != null ? tempNode.Attributes["alt"].Value : "";
 
             string xPathGender = "//*/div[1]/div";
             tempNode = document.DocumentNode.SelectSingleNode(xPathGender);
-            courseEntity.Gender = tempNode.Attributes["class"].Value.Contains("women") ? 0 : 1;
-            courseEntity.Age = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            courseEntity.Gender = tempNode != null ? (tempNode.Attributes["class"].Value.Contains("women") ? 0 : 1) : 0;
+            courseEntity.Age = tempNode != null ? int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' })) : 18;
 
             string xPathContent = "//*/a[1]/div/span";
             tempNode = document.DocumentNode.SelectSingleNode(xPathContent);
-            courseEntity.Content = tempNode.InnerText.Trim(new char[] { '\r', '\n' }); ;
+            courseEntity.Content = tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "";
 
             string xPathUpCount = "//*/div[2]/span[1]/i";
             tempNode = document.DocumentNode.SelectSingleNode(xPathUpCount);
-            courseEntity.UpCount = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            courseEntity.UpCount = tempNode != null ? int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' })) : 0;
 
             string xPathCommentCount = "//*/div[2]/span[2]/a/i";
             tempNode = document.DocumentNode.SelectSingleNode(xPathCommentCount);
-            courseEntity.CommentCount = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            courseEntity.CommentCount = tempNode != null ? int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' })) : 0;
 
             return courseEntity;
 
@@ -192,15 +199,15 @@ namespace MyCrawler
             HtmlNode tempNode = document.DocumentNode.SelectSingleNode(xPathHeadImgUrl);
             courseEntity.HeadImgUrlWeb = tempNode != null ? tempNode.Attributes["src"].Value : "";
             //图片保存到本地
-            string path = ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]);
-            courseEntity.HeadImgUrlDisk = path.Replace(@"E:\study\WeChatApplet\pages", "..");
-
+            string path = tempNode != null ? ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
+            courseEntity.HeadImgUrlDisk = tempNode != null ? path.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
             courseEntity.Author = tempNode != null ? tempNode.Attributes["alt"].Value : "";
+
 
             string xPathGender = "//*/div[1]/div";
             tempNode = document.DocumentNode.SelectSingleNode(xPathGender);
             courseEntity.Gender = tempNode != null ? (tempNode.Attributes["class"].Value.Contains("women") ? 0 : 1) : 0;
-            courseEntity.Age = int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' }));
+            courseEntity.Age = tempNode != null ? int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' })) : 18;
 
             string xPathContent = "//*/a[1]/div/span";
             tempNode = document.DocumentNode.SelectSingleNode(xPathContent);
@@ -208,16 +215,16 @@ namespace MyCrawler
 
             string xPathContentImg = "//*/div[2]/a/img";
             tempNode = document.DocumentNode.SelectSingleNode(xPathContentImg);
-            string pathContentImg = ImageHelper.ImgSave("http:" + (tempNode != null ? tempNode.Attributes["src"].Value : ""));
-            courseEntity.ContentImg = pathContentImg.Replace(@"E:\study\WeChatApplet\pages", "..");
+            string pathContentImg = tempNode != null ? ImageHelper.ImgSave("http:" + (tempNode != null ? tempNode.Attributes["src"].Value : "")) : "";
+            courseEntity.ContentImg = tempNode != null ? pathContentImg.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
 
             string xPathUpCount = "//*/div[3]/span[1]/i";
             tempNode = document.DocumentNode.SelectSingleNode(xPathUpCount);
-            courseEntity.UpCount = int.Parse(tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "0");
+            courseEntity.UpCount = tempNode != null ? int.Parse(tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "0") : 0;
 
             string xPathCommentCount = "//*/div[3]/span[2]/a/i";
             tempNode = document.DocumentNode.SelectSingleNode(xPathCommentCount);
-            courseEntity.CommentCount = int.Parse(tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "0");
+            courseEntity.CommentCount = tempNode != null ? int.Parse(tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "0") : 0;
 
             return courseEntity;
 

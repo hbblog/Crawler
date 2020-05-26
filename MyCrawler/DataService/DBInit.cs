@@ -40,7 +40,7 @@ namespace MyCrawler.DataService
                 }
                 else
                 {
-                    logger.Error("初始化数据库InitTencent_SubjectTable失败", ex);
+                    logger.Error("初始化数据库InitTencent_SubjectTable失败" + ex.Message);
                     throw ex;
                 }
             }
@@ -70,7 +70,7 @@ namespace MyCrawler.DataService
             }
             catch (Exception ex)
             {
-                logger.Error("InitInitTencent_SubjectTable创建异常", ex);
+                logger.Error("InitInitTencent_SubjectTable创建异常" + ex.Message);
                 throw ex;
             }
             #endregion Create
@@ -96,7 +96,7 @@ namespace MyCrawler.DataService
                 }
                 else
                 {
-                    logger.Error("初始化数据库InitTencent_CategoryTable失败", ex);
+                    logger.Error("初始化数据库InitTencent_CategoryTable失败" + ex.Message);
                     throw ex;
                 }
             }
@@ -124,7 +124,7 @@ namespace MyCrawler.DataService
             }
             catch (Exception ex)
             {
-                logger.Error("初始化数据库InitTencent_Category Table 创建失败", ex);
+                logger.Error("初始化数据库InitTencent_Category Table 创建失败" + ex.Message);
                 throw ex;
             }
             #endregion Create

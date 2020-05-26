@@ -77,7 +77,6 @@ E:\study\Crawler\MyCrawler\bin\Debug\HtmlAgilityPack.pdb
 E:\study\Crawler\MyCrawler\bin\Debug\HtmlAgilityPack.xml
 E:\study\Crawler\MyCrawler\bin\Debug\log4net.xml
 E:\study\Crawler\MyCrawler\bin\Debug\Newtonsoft.Json.xml
-E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.csprojAssemblyReference.cache
 E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.Properties.Resources.resources
 E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.csproj.GenerateResource.cache
 E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.csproj.CoreCompileInputs.cache

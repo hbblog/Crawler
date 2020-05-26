@@ -67,7 +67,7 @@ namespace MyCrawler
             }
             catch (Exception ex)
             {
-                logger.Error("CrawlerMuti出现异常", ex);
+                logger.Error("CrawlerMuti出现异常"+ ex.Message);
             }
             finally
             {

@@ -164,7 +164,7 @@ namespace MyCrawler
             }
             catch (Exception ex)
             {
-                logger.Error("CleanAll出现异常", ex);
+                logger.Error("CleanAll出现异常"+ ex.Message);
             }
             finally
             {

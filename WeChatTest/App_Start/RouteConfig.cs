@@ -15,8 +15,8 @@ namespace WeChatTest
 
             routes.MapRoute(
                 name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "QBHappy", action = "Text", id = UrlParameter.Optional }
+                url: "{controller}/{action}/{type}/{pageIndex}",
+                defaults: new { controller = "QBHappy", action = "Text", type = UrlParameter.Optional, pageIndex = UrlParameter.Optional }
             );
         }
     }

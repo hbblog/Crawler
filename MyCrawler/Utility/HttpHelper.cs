@@ -90,7 +90,7 @@ namespace MyCrawler.Utility
                         }
                         catch (Exception ex)
                         {
-                            logger.Error(string.Format($"DownloadHtml抓取{url}失败"), ex);
+                            logger.Error(string.Format($"DownloadHtml抓取{url}失败") + ex.Message);
                             html = null;
                         }
                     }
@@ -100,13 +100,13 @@ namespace MyCrawler.Utility
             {
                 if (ex.Message.Equals("远程服务器返回错误: (306)。"))
                 {
-                    logger.Error("远程服务器返回错误: (306)。", ex);
+                    logger.Error("远程服务器返回错误: (306)。" + ex.Message);
                     html = null;
                 }
             }
             catch (Exception ex)
             {
-                logger.Error(string.Format("DownloadHtml抓取{0}出现异常", url), ex);
+                logger.Error(string.Format("DownloadHtml抓取{0}出现异常", url) + ex.Message);
                 html = null;
             }
             return html;

@@ -193,10 +193,10 @@
       <publishTime>05/25/2020 19:42:44</publishTime>
     </File>
     <File Include="bin/WeChatTest.dll">
-      <publishTime>05/25/2020 21:27:16</publishTime>
+      <publishTime>05/26/2020 22:01:27</publishTime>
     </File>
     <File Include="bin/WeChatTest.pdb">
-      <publishTime>05/25/2020 21:27:16</publishTime>
+      <publishTime>05/26/2020 22:01:27</publishTime>
     </File>
     <File Include="bin/zh-Hans/System.Web.Helpers.resources.dll">
       <publishTime>05/25/2020 19:42:43</publishTime>

@@ -29,10 +29,10 @@ namespace MyCrawler.Utility
         /// </summary>
         /// <param name="msg"></param>
         /// <param name="ex"></param>
-        public void Error(string msg = "出现异常", Exception ex = null)
+        public void Error(string msg)
         {
             Console.WriteLine(msg);
-            loger.Error(msg, ex);
+            loger.Error(msg);
         }
 
         /// <summary>
