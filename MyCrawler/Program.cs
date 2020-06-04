@@ -39,12 +39,25 @@ namespace MyCrawler
                     PageXPath = "/html/body/div[1]/div/div[2]/ul/li/a/span[@class='page-numbers']",
                     NodeXPath = "/html/body/div[1]/div/div[2]/div"
                 };
-                #endregion
 
                 ISearch searchImg = new CourseSearch(categoryImg);
                 searchImg.Crawler();
                 logger.Info(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "抓取趣图执行成功\r\n");
+                #endregion
 
+                #region 抓取视频
+                TencentCategoryEntity categoryVideo = new TencentCategoryEntity()
+                {
+                    Url = "https://www.qiushibaike.com/video/",
+                    Type = "video",
+                    PageXPath = "/html/body/div[1]/div/div[2]/ul/li/a/span[@class='page-numbers']",
+                    NodeXPath = "/html/body/div[1]/div/div[2]/div"
+                };
+
+                ISearch searchVideo = new CourseSearch(categoryVideo);
+                searchVideo.Crawler();
+                logger.Info(DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + "抓取趣图执行成功\r\n");
+                #endregion
 
                 //Console.ReadLine();
             }

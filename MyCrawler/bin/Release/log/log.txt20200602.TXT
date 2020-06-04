@@ -1,0 +1,18 @@
+2020-06-02 20:21:34,600 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-02 20:21:56,171 [1] INFO  MyCrawler.Program - 2020-06-02 20:21:56抓取段子执行成功
+
+2020-06-02 20:21:56,858 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-02 20:21:57,109 [1] INFO  MyCrawler.Program - 2020-06-02 20:21:57抓取趣图执行成功
+
+2020-06-02 20:51:21,578 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-02 20:51:38,603 [1] INFO  MyCrawler.Program - 2020-06-02 20:51:38抓取段子执行成功
+
+2020-06-02 20:51:39,164 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-02 20:51:39,299 [1] INFO  MyCrawler.Program - 2020-06-02 20:51:39抓取趣图执行成功
+
+2020-06-02 21:21:21,483 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-02 21:21:38,408 [1] INFO  MyCrawler.Program - 2020-06-02 21:21:38抓取段子执行成功
+
+2020-06-02 21:21:39,081 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-02 21:21:39,182 [1] INFO  MyCrawler.Program - 2020-06-02 21:21:39抓取趣图执行成功
+

@@ -1,0 +1,55 @@
+2020-06-04 20:33:53,531 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 20:33:59,827 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-04 20:34:10,260 [1] INFO  MyCrawler.Program - 2020-06-04 20:34:10抓取趣图执行成功
+
+2020-06-04 20:34:31,124 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 20:36:27,820 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-04 20:36:27,940 [1] INFO  MyCrawler.Program - 2020-06-04 20:36:27抓取趣图执行成功
+
+2020-06-04 20:36:31,556 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 20:36:33,193 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-04 20:36:33,317 [1] INFO  MyCrawler.Program - 2020-06-04 20:36:33抓取趣图执行成功
+
+2020-06-04 20:36:51,724 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 20:37:02,487 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-06-04 20:37:02,616 [1] INFO  MyCrawler.Program - 2020-06-04 20:37:02抓取趣图执行成功
+
+2020-06-04 20:37:13,564 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 20:38:14,604 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 20:39:04,000 [1] INFO  MyCrawler.Program - 2020-06-04 20:39:04抓取趣图执行成功
+
+2020-06-04 20:57:16,576 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:01:51,784 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:05:06,666 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:05:42,293 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:13:15,117 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:13:37,572 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:13:52,225 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常空路径名是非法的。
+2020-06-04 21:13:52,369 [1] INFO  MyCrawler.Program - 2020-06-04 21:13:52抓取趣图执行成功
+
+2020-06-04 21:13:56,423 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:14:27,813 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:14:36,452 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常不支持 URI 格式。
+2020-06-04 21:14:36,574 [1] INFO  MyCrawler.Program - 2020-06-04 21:14:36抓取趣图执行成功
+
+2020-06-04 21:14:39,503 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:16:00,656 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:16:12,207 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常文件名、目录名或卷标语法不正确。
+
+2020-06-04 21:16:12,328 [1] INFO  MyCrawler.Program - 2020-06-04 21:16:12抓取趣图执行成功
+
+2020-06-04 21:16:44,183 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:16:51,090 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常文件名、目录名或卷标语法不正确。
+
+2020-06-04 21:16:51,213 [1] INFO  MyCrawler.Program - 2020-06-04 21:16:51抓取趣图执行成功
+
+2020-06-04 21:17:00,423 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:18:19,851 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:19:54,487 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:20:18,505 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未能找到路径“E:\study\WeChatApplet\pages\resource\video\2119558722.mp4”的一部分。
+2020-06-04 21:29:11,698 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:30:33,949 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:32:33,067 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-06-04 21:44:23,709 [1] INFO  MyCrawler.Program - 2020-06-04 21:44:23抓取趣图执行成功
+
+2020-06-04 21:44:27,833 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块

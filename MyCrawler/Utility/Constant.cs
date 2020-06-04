@@ -23,6 +23,11 @@ namespace MyCrawler.Utility
         public static string ImagePath = ConfigurationManager.AppSettings["ImagePath"];
 
         /// <summary>
+        /// 视频保存路径
+        /// </summary>
+        public static string VideoPath = ConfigurationManager.AppSettings["VideoPath"];
+
+        /// <summary>
         /// 腾讯课堂入口
         /// </summary>
         public static string TencentClassUrl = ConfigurationManager.AppSettings["TencentClassUrl"];

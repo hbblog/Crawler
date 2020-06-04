@@ -124,7 +124,19 @@ namespace MyCrawler
                     foreach (var node in liNodes)
                     {
                         CourseEntity courseEntity = GetImgData(node);
-                        if (imgEntity.Content == courseEntity.Content)
+                        if (imgEntity != null && imgEntity.Content == courseEntity.Content)
+                        {
+                            break;
+                        }
+                        courseEntities.Add(courseEntity);
+                    }
+                    break;
+                case "video":
+                    var vdieoEntity = SqlHelper.QueryList<CourseEntity>("select top 1 * from QiuBaiHappy where type=2 order by id desc").FirstOrDefault();
+                    foreach (var node in liNodes)
+                    {
+                        CourseEntity courseEntity = GetVideoData(node);
+                        if (vdieoEntity != null && vdieoEntity.Content == courseEntity.Content)
                         {
                             break;
                         }
@@ -182,6 +194,7 @@ namespace MyCrawler
         #endregion
 
 
+        #region imgrank页面 当我们把这些数据获取到以后，那就应该保存起来
         /// <summary>
         /// imgrank页面 当我们把这些数据获取到以后，那就应该保存起来
         /// </summary>
@@ -229,6 +242,59 @@ namespace MyCrawler
             return courseEntity;
 
         }
+
+        #endregion
+
+        #region video页面 当我们把这些数据获取到以后，那就应该保存起来
+        /// <summary>
+        /// imgrank页面 当我们把这些数据获取到以后，那就应该保存起来
+        /// </summary>
+        /// <param name="node"></param>
+        private CourseEntity GetVideoData(HtmlNode node)
+        {
+            CourseEntity courseEntity = new CourseEntity();
+            courseEntity.Type = 2;
+            courseEntity.ContentVideo = "";
+            //从这里开始 
+            HtmlDocument document = new HtmlDocument();
+            document.LoadHtml(node.OuterHtml);
+
+            string xPathHeadImgUrl = "//*/div[1]/a/img";
+            HtmlNode tempNode = document.DocumentNode.SelectSingleNode(xPathHeadImgUrl);
+            courseEntity.HeadImgUrlWeb = tempNode != null ? tempNode.Attributes["src"].Value : "";
+            //图片保存到本地
+            string path = tempNode != null ? ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
+            courseEntity.HeadImgUrlDisk = tempNode != null ? path.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
+            courseEntity.Author = tempNode != null ? tempNode.Attributes["alt"].Value : "";
+
+
+            string xPathGender = "//*/div[1]/div";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathGender);
+            courseEntity.Gender = tempNode != null ? (tempNode.Attributes["class"].Value.Contains("women") ? 0 : 1) : 0;
+            courseEntity.Age = tempNode != null ? int.Parse(tempNode.InnerText.Trim(new char[] { '\r', '\n' })) : 18;
+
+            string xPathContent = "//*/a[1]/div/span";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathContent);
+            courseEntity.Content = tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "";
+
+            string xPathContentVideo = "//*/video[1]/source";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathContentVideo);
+            string pathContentVideo = tempNode != null ? VideoHelper.Save("http:" + (tempNode != null ? tempNode.Attributes["src"].Value : "")) : "";
+            courseEntity.ContentVideo = tempNode != null ? pathContentVideo.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
+
+            string xPathUpCount = "//*/div[2]/span[1]/i";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathUpCount);
+            courseEntity.UpCount = tempNode != null ? int.Parse(tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "0") : 0;
+
+            string xPathCommentCount = "//*/div[2]/span[2]/a/i";
+            tempNode = document.DocumentNode.SelectSingleNode(xPathCommentCount);
+            courseEntity.CommentCount = tempNode != null ? int.Parse(tempNode != null ? tempNode.InnerText.Trim(new char[] { '\r', '\n' }) : "0") : 0;
+
+            return courseEntity;
+
+        }
+
+        #endregion
         #endregion
 
 

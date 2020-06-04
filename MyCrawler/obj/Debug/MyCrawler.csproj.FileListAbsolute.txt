@@ -83,3 +83,4 @@ E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.csproj.CoreCompileInputs.cache
 E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.csproj.CopyComplete
 E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.exe
 E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.pdb
+E:\study\Crawler\MyCrawler\obj\Debug\MyCrawler.csprojAssemblyReference.cache

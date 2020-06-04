@@ -95,6 +95,7 @@
     <Compile Include="Utility\HttpHelper.cs" />
     <Compile Include="Utility\ImageHelper.cs" />
     <Compile Include="Utility\Logger.cs" />
+    <Compile Include="Utility\VideoHelper.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

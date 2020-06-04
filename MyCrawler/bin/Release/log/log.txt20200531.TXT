@@ -1,0 +1,42 @@
+2020-05-31 19:40:26,467 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-05-31 19:40:38,374 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 19:40:38,639 [1] INFO  MyCrawler.Program - 2020-05-31 19:40:38抓取段子执行成功
+
+2020-05-31 19:40:39,046 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 19:40:39,061 [1] INFO  MyCrawler.Program - 2020-05-31 19:40:39抓取趣图执行成功
+
+2020-05-31 20:10:08,212 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-05-31 20:10:19,083 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 20:10:19,237 [1] INFO  MyCrawler.Program - 2020-05-31 20:10:19抓取段子执行成功
+
+2020-05-31 20:10:19,662 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 20:10:19,673 [1] INFO  MyCrawler.Program - 2020-05-31 20:10:19抓取趣图执行成功
+
+2020-05-31 20:40:08,123 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-05-31 20:40:18,840 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 20:40:18,943 [1] INFO  MyCrawler.Program - 2020-05-31 20:40:18抓取段子执行成功
+
+2020-05-31 20:40:19,314 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 20:40:19,324 [1] INFO  MyCrawler.Program - 2020-05-31 20:40:19抓取趣图执行成功
+
+2020-05-31 21:10:08,125 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-05-31 21:10:18,946 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 21:10:19,055 [1] INFO  MyCrawler.Program - 2020-05-31 21:10:19抓取段子执行成功
+
+2020-05-31 21:10:19,489 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常无法打开登录所请求的数据库 "Test"。登录失败。
+用户 'sa' 登录失败。
+2020-05-31 21:10:19,498 [1] INFO  MyCrawler.Program - 2020-05-31 21:10:19抓取趣图执行成功
+
+2020-05-31 21:14:31,882 [1] INFO  MyCrawler.Utility.Logger - 系统初始化Logger模块
+2020-05-31 21:14:46,740 [1] INFO  MyCrawler.Program - 2020-05-31 21:14:46抓取段子执行成功
+
+2020-05-31 21:14:47,337 [1] ERROR MyCrawler.CourseSearch - CrawlerMuti出现异常未将对象引用设置到对象的实例。
+2020-05-31 21:14:47,462 [1] INFO  MyCrawler.Program - 2020-05-31 21:14:47抓取趣图执行成功
+
