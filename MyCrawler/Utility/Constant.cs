@@ -18,9 +18,14 @@ namespace MyCrawler.Utility
         public static string DataPath = ConfigurationManager.AppSettings["DataPath"];
 
         /// <summary>
+        /// 头像图片保存路径
+        /// </summary>
+        public static string HeadImagePath = ConfigurationManager.AppSettings["HeadImagePath"];
+
+        /// <summary>
         /// 图片保存路径
         /// </summary>
-        public static string ImagePath = ConfigurationManager.AppSettings["ImagePath"];
+        public static string ContentImagePath = ConfigurationManager.AppSettings["ContentImagePath"];
 
         /// <summary>
         /// 视频保存路径

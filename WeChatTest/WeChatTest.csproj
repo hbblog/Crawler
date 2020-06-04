@@ -169,6 +169,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="f\contentImg\" />
+    <Folder Include="f\headImg\" />
+    <Folder Include="f\video\" />
     <Folder Include="Views\QBHappy\" />
   </ItemGroup>
   <ItemGroup>

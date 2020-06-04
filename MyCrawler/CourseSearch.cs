@@ -166,7 +166,7 @@ namespace MyCrawler
             HtmlNode tempNode = document.DocumentNode.SelectSingleNode(xPathHeadImgUrl);
             courseEntity.HeadImgUrlWeb = tempNode != null ? tempNode.Attributes["src"].Value : "";
             //图片保存到本地
-            string path = tempNode != null ? ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
+            string path = tempNode != null ? ImageHelper.ImgSave(0, "http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
             courseEntity.HeadImgUrlDisk = tempNode != null ? path.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
 
             courseEntity.Author = tempNode != null ? tempNode.Attributes["alt"].Value : "";
@@ -212,7 +212,7 @@ namespace MyCrawler
             HtmlNode tempNode = document.DocumentNode.SelectSingleNode(xPathHeadImgUrl);
             courseEntity.HeadImgUrlWeb = tempNode != null ? tempNode.Attributes["src"].Value : "";
             //图片保存到本地
-            string path = tempNode != null ? ImageHelper.ImgSave("http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
+            string path = tempNode != null ? ImageHelper.ImgSave(0, "http:" + courseEntity.HeadImgUrlWeb.Split(new char[] { '?' }, StringSplitOptions.RemoveEmptyEntries)[0]) : "";
             courseEntity.HeadImgUrlDisk = tempNode != null ? path.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
             courseEntity.Author = tempNode != null ? tempNode.Attributes["alt"].Value : "";
 
@@ -228,7 +228,7 @@ namespace MyCrawler
 
             string xPathContentImg = "//*/div[2]/a/img";
             tempNode = document.DocumentNode.SelectSingleNode(xPathContentImg);
-            string pathContentImg = tempNode != null ? ImageHelper.ImgSave("http:" + (tempNode != null ? tempNode.Attributes["src"].Value : "")) : "";
+            string pathContentImg = tempNode != null ? ImageHelper.ImgSave(1, "http:" + (tempNode != null ? tempNode.Attributes["src"].Value : "")) : "";
             courseEntity.ContentImg = tempNode != null ? pathContentImg.Replace(@"E:\study\WeChatApplet\pages", "..") : "";
 
             string xPathUpCount = "//*/div[3]/span[1]/i";
@@ -244,6 +244,7 @@ namespace MyCrawler
         }
 
         #endregion
+
 
         #region video页面 当我们把这些数据获取到以后，那就应该保存起来
         /// <summary>
