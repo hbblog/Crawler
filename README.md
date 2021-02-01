@@ -1,6 +1,6 @@
 # Crawler
  现在爬到的是https://www.qiushibaike.com/text网址内容，包含所有页内数据
- 数据库是sqlserver2014，数据库表结构在\WeChatTest\App_Data\DB_QiuBaiHappy
+ 数据库是sqlserver2014，数据库表结构在\WeChatTest\App_Data\DB_QiuBaiHappy.txt
 # 大致流程
  1.将想要抓取的页面读取到内存
  2.加载页面
